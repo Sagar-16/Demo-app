@@ -1,33 +1,47 @@
-HELP.md
+# Maven
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Spring Boot
+mvnw
+mvnw.cmd
+spring-boot-starter-dump/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IDE-specific files (Eclipse, IntelliJ, etc.)
+.idea/
+.vscode/
 *.iml
 *.ipr
+*.iws
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Logs
+log/
+logs/
+
+# Compiled Java
+*.class
+
+# Compiled Kotlin
+*.kotlin_built
+*.kotlin_module
+
+# Compiled bytecode
+*.jar
+*.war
+*.ear
+
+# Dependency directories
+bin/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+out/
+node_modules/
 
-### VS Code ###
-.vscode/
+# IDE (e.g., IntelliJ) configuration files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
